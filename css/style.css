@@ -1,13 +1,39 @@
 img{
     display: block;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
 
-/* HEADER */
+/* header */
 
 .page-header{
     height: 80px;
-    background-color: gray;
 }
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-mobile{
+    width: 70px;
+}
+
+.logo{
+    width: 150px;
+}
+
+form{
+   
+}
+
+/* wrapper */
 
 .wrapper{
     height: calc(100vh - 80px);
@@ -15,18 +41,38 @@ img{
 }
 
 .sidebar{
-    background-color: aqua;
     flex: 0 0 75px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: rgb(6,30,52);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main{
     flex: 1 1 auto;
     overflow-y: auto;
+    color: white;
+}
+
+.bg-pils{
+    background-color: rgb(22,91,186);
 }
 
 .main-header{
-    min-height: 100px;
-    background-color: blueviolet;
+    background-color: rgb(29,114,232);
+    padding: 20px 10px;
+}
+
+.fa-plus{
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 7px;
+    cursor: pointer;
+    vertical-align: sub;
 }
 
 /**** RESPONSIVE****/

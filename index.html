@@ -11,12 +11,84 @@
     <link rel="stylesheet" href="css/debug.css">
 </head>
 <body>
-    <header class="page-header"></header>
+
+    <!-- header -->
+    <header class="page-header">
+        <div class="container-fluid">
+            <div class="header-nav">
+                <div class="">
+                        <img src="img/mobile-logo.png" alt="" class="logo-mobile d-lg-none">
+                        <img src="img/logo.svg" alt="" class="logo d-none d-lg-block">
+                </div>
+                <div class="">
+                        <nav class="navbar bg-light">
+                            <div class="container-fluid">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Search">
+                                </form>
+                            </div>
+                        </nav>
+                </div>
+                <div class="">
+                        <i class="fa-solid fa-list d-none d-lg-inline-block"></i>
+                        <i class="fa-sharp fa-solid fa-circle-question d-none d-lg-inline"></i>
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline"></i>
+                        <i class="fa-solid fa-bell"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- wrapper -->
     <div class="wrapper">
-        <div class="sidebar"></div>
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="py-3">
+                <div class="py-2"><i class="fa-solid fa-house px-3"></i><span class="d-none d-lg-inline">Home</span></div>
+                <div class="py-2"><i class="fa-sharp fa-solid fa-chart-simple px-3"></i><span class="d-none d-lg-inline ps-1">Stats</span></div>
+                <div class="py-2"><i class="fa-solid fa-signal px-3"></i><span class="d-none d-lg-inline">Signals</span></div>
+            </div>
+            <div class="py-3">
+                <div class="py-2"><i class="fa-solid fa-gear px-3"></i><span class="d-none d-lg-inline">Admin</span></div>
+            </div>
+        </div>
+
+        <!-- main -->
         <main>
-            <header class="main-header"></header>
+            <header class="main-header">
+                <div class="container-fluid">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <div>
+                                <h2 class="d-inline pe-1">Boolean</h2>
+                                <span class="badge rounded-pill bg-pils">Piano Blaze</span>
+                            </div>
+                            <div class="py-1">
+                                <span class="badge rounded-pill bg-pils me-1 my-1">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <span class="badge rounded-pill bg-pils m-1 d-none d-lg-inline">Boolean mobile app</span>
+                                <span class="badge rounded-pill bg-pils m-1 d-none d-lg-inline">Boolean web app</span>
+                                <span class="badge rounded-pill bg-pils m-1 d-none d-lg-inline">Boolean blog app</span>
+                                <span class="badge rounded-pill bg-pils m-1 d-lg-none">+</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h5>Studenti online negli ultimi 30 minuti</h5>
+                            <h2>125</h2>
+                        </div>
+                        <div class="col d-none d-md-block ">
+                            <h5 class="d-inline pe-2">Nuovo studente</h5>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="main-content"></div>
         </main>
+
     </div>
 </body>
 </html>
