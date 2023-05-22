@@ -1,0 +1,38 @@
+img{
+    display: block;
+}
+
+/* HEADER */
+
+.page-header{
+    height: 80px;
+    background-color: gray;
+}
+
+.wrapper{
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+.sidebar{
+    background-color: aqua;
+    flex: 0 0 75px;
+}
+
+main{
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.main-header{
+    min-height: 100px;
+    background-color: blueviolet;
+}
+
+/**** RESPONSIVE****/
+
+@media screen and (min-width: 992px){
+    .sidebar{
+        flex-basis: 150px;
+    }
+}
