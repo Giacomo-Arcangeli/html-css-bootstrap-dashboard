@@ -65,6 +65,9 @@ main{
     background-color: rgb(29,114,232);
     padding: 20px 10px;
 }
+.main-content{
+    color: black;
+}
 
 .fa-plus{
     font-size: 25px;
@@ -74,6 +77,10 @@ main{
     cursor: pointer;
     vertical-align: sub;
 }
+
+
+
+
 
 /**** RESPONSIVE****/
 
