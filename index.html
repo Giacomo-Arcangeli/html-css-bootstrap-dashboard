@@ -80,9 +80,52 @@
                             <h5>Studenti online negli ultimi 30 minuti</h5>
                             <h2>125</h2>
                         </div>
-                        <div class="col d-none d-md-block ">
-                            <h5 class="d-inline pe-2">Nuovo studente</h5>
-                            <i class="fa-solid fa-plus"></i>
+                        <div class="col d-none d-md-block">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Nuovo Studente <i class="fa-solid fa-plus"></i></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form>
+        <div class="mb-3">
+            <label for="Nome" class="form-label">Nome</label>
+            <input type="password" class="form-control" placeholder="Nome" id="Nome">
+        </div>
+        <div class="mb-3">
+            <label for="Cognome" class="form-label">Cognome</label>
+            <input type="password" class="form-control" placeholder="Cognome" id="Cognome">
+        </div>
+        <div class="mb-3">
+            <label for="Città" class="form-label">Città</label>
+            <input type="password" class="form-control" placeholder="Città" id="Città">
+        </div>
+        <div class="mb-3">
+            <label for="cap" class="form-label">CAP</label>
+            <input type="password" class="form-control" placeholder="CAP" id="cap">
+        </div>
+        <div class="mb-3">
+            <label for="indirizzo" class="form-label">Indirizzo</label>
+            <input type="password" class="form-control" placeholder="Indirizzo" id="indirizzo">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" placeholder="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" placeholder="password" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Iscriviti</button>
+      </form>
+  </div>
+</div>
                         </div>
                     </div>
                 </div>
