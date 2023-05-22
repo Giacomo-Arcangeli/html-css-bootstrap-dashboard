@@ -18,7 +18,9 @@ ul{
 .header-nav{
     display: flex;
     align-items: center;
+    height: 80px;
     justify-content: space-between;
+
 }
 
 .logo-mobile{
@@ -29,8 +31,19 @@ ul{
     width: 150px;
 }
 
+.search{
+    width: 70%;
+}
 form{
-   
+   width: 100%;
+}
+
+.form-control{
+    background-color: rgb(229,229,229);
+}
+
+.fa-bell{
+    color: rgb(255,143,0)   ;
 }
 
 /* wrapper */
@@ -78,8 +91,18 @@ main{
     vertical-align: sub;
 }
 
+.icon-bor{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: gray;
+}
 
-
+td img{
+    width: 30px;
+    display: inline-block;
+}
 
 
 /**** RESPONSIVE****/
